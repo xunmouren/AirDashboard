@@ -25,8 +25,9 @@ typedef struct {
 
 EXPORT void  flight_data_init(FlightData *d);
 EXPORT float throttle_to_rpm(float throttle_percent);
-EXPORT float value_to_angle(float value, float min, float max,
-                            float start_angle, float sweep_angle);
+EXPORT float value_to_angle(float value, float min, float max, float start_angle, float sweep_angle);
+EXPORT float rand_float(void);
+EXPORT void update_physics(FlightData *d, float dt, float throttle);
 
 #ifdef __cplusplus
 }
