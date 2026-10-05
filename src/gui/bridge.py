@@ -49,5 +49,5 @@ def value_to_angle(value, min_val, max_val, start_angle, sweep_angle):
 
 
 def speed_to_angle(speed):
-    """空速专用：0~1000 km/h → 135° 起，扫 270°"""
+    """空速"""
     return value_to_angle(speed, 0.0, 1000.0, 135.0, 270.0)
