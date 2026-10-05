@@ -20,25 +20,7 @@ AirDashBoard 提供简洁直观的界面，支持速度，高度，角度，油�
 | uv | 项目与依赖管理 |
 
 ## 🚀 安装运行
-```bash
-1. 克隆项目
-git clone https://github.com/xunmouren/AirDashboard.git
-cd AirDashboard
-
-2. 安装 uv
-# Windows
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-
-# macOS / Linux
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
-3. 创建虚拟环境并安装依赖
-#本项目使用uv管理 Python 环境和依赖
-uv sync
-
-4. 运行程序
-uv run main.py
-```
+完善中
 
 ## 🔮 后续开发计划
 - [ ] 深色模式
