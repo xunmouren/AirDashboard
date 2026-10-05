@@ -9,6 +9,7 @@ int main(void) {
     // 初始化飞行数据
     flight_data_init(&aircraft);
 
+    /* 输出测试
     printf("========== Flight Status ==========\n");
     printf("Speed     : %.1f km/h\n", aircraft.speed);
     printf("Altitude  : %.1f m\n",  aircraft.altitude);
@@ -17,6 +18,7 @@ int main(void) {
     printf("Fuel      : %.1f L\n",   aircraft.fuel);
     printf("RPM       : %.1f\n",     aircraft.rpm);
     printf("==================================\n");
+    */
 
     // 时间步长
     float dt = 1.0f / 60.0f;
@@ -39,6 +41,5 @@ int main(void) {
                    aircraft.fuel);
         }
     }
-
     return 0;
 }

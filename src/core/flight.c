@@ -51,7 +51,7 @@ EXPORT void update_physics(FlightData *d, float dt, float throttle) {
     // 油门→速度
     d->speed += throttle * MAX_ACCEL * dt;
     if (d->speed > MAX_SPEED) d->speed = MAX_SPEED;
-    if (d->speed < 0.0f)      d->speed = 0.0f;
+    if (d->speed < 0.0f) d->speed = 0.0f;
 
     // 油门→油耗
     d->fuel -= throttle * MAX_FUEL_RATE * dt;
